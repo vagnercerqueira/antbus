@@ -1,0 +1,40 @@
+CRITICAL - 2021-03-31 15:25:00 --> Table 'arkivarnet2.antbus_BIL_TIPO_100' doesn't exist
+#0 /home/arkivar.net/www/antbus/system/Database/MySQLi/Connection.php(331): mysqli->query('DELETE FROM ant...')
+#1 /home/arkivar.net/www/antbus/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM ant...')
+#2 /home/arkivar.net/www/antbus/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM ant...')
+#3 /home/arkivar.net/www/antbus/app/Controllers/Bil/Bil001.php(232): CodeIgniter\Database\BaseConnection->query('DELETE FROM ant...')
+#4 /home/arkivar.net/www/antbus/app/Controllers/Bil/Bil001.php(128): App\Controllers\Bil\Bil001->insere_tipos()
+#5 /home/arkivar.net/www/antbus/system/CodeIgniter.php(914): App\Controllers\Bil\Bil001->upload()
+#6 /home/arkivar.net/www/antbus/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bil\Bil001))
+#7 /home/arkivar.net/www/antbus/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/arkivar.net/www/antbus/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-31 15:25:41 --> Table 'arkivarnet2.antbus_BIL_TIPO_100' doesn't exist
+#0 /home/arkivar.net/www/antbus/system/Database/MySQLi/Connection.php(331): mysqli->query('DELETE FROM ant...')
+#1 /home/arkivar.net/www/antbus/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM ant...')
+#2 /home/arkivar.net/www/antbus/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM ant...')
+#3 /home/arkivar.net/www/antbus/app/Controllers/Bil/Bil001.php(232): CodeIgniter\Database\BaseConnection->query('DELETE FROM ant...')
+#4 /home/arkivar.net/www/antbus/app/Controllers/Bil/Bil001.php(128): App\Controllers\Bil\Bil001->insere_tipos()
+#5 /home/arkivar.net/www/antbus/system/CodeIgniter.php(914): App\Controllers\Bil\Bil001->upload()
+#6 /home/arkivar.net/www/antbus/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bil\Bil001))
+#7 /home/arkivar.net/www/antbus/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/arkivar.net/www/antbus/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-31 15:31:02 --> Call to undefined method App\Controllers\Bil\Bil001::remove_folder()
+#0 /home/arkivar.net/www/antbus/system/CodeIgniter.php(914): App\Controllers\Bil\Bil001->upload()
+#1 /home/arkivar.net/www/antbus/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bil\Bil001))
+#2 /home/arkivar.net/www/antbus/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/arkivar.net/www/antbus/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-31 15:37:44 --> Call to undefined method App\Controllers\Bil\Bil001::remove_folder()
+#0 /home/arkivar.net/www/antbus/system/CodeIgniter.php(914): App\Controllers\Bil\Bil001->upload()
+#1 /home/arkivar.net/www/antbus/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bil\Bil001))
+#2 /home/arkivar.net/www/antbus/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/arkivar.net/www/antbus/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-31 15:38:33 --> Call to undefined method App\Controllers\Bil\Bil001::remove_folder()
+#0 /home/arkivar.net/www/antbus/system/CodeIgniter.php(914): App\Controllers\Bil\Bil001->upload()
+#1 /home/arkivar.net/www/antbus/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bil\Bil001))
+#2 /home/arkivar.net/www/antbus/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/arkivar.net/www/antbus/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
